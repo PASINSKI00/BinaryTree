@@ -34,6 +34,19 @@ class BinaryTreeTest {
     }
 
     @Test
+    void getNumberOfLeafs_ShouldReturn1() {
+        //given
+        BinaryTree tree = new BinaryTree(5);
+        int expected = 1;
+
+        //when
+        int actual = tree.getNumberOfLeafs();
+
+        //then
+        assertEquals(expected, actual);
+    }
+
+    @Test
     void getNumberOfLeafs_ShouldReturnCorrect_WhenRootIsNull() {
         //given
         BinaryTree tree = new BinaryTree();
