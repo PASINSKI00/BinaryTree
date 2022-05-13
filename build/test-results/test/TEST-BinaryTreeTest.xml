@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BinaryTreeTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-05-13T11:55:53" hostname="LAPTOP-M9EHKSNA" time="0.037">
+<testsuite name="BinaryTreeTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-05-13T12:06:59" hostname="LAPTOP-M9EHKSNA" time="0.039">
   <properties/>
-  <testcase name="getNumberOfLeafs_ShouldReturn1()" classname="BinaryTreeTest" time="0.021"/>
+  <testcase name="getNumberOfLeafs_ShouldReturn1()" classname="BinaryTreeTest" time="0.024"/>
   <testcase name="getNumberOfLeafs_ShouldReturn6()" classname="BinaryTreeTest" time="0.001"/>
   <testcase name="areEqual_ShouldReturnTrue()" classname="BinaryTreeTest" time="0.002"/>
   <testcase name="getNumberOfLeafs_ShouldReturnCorrect_WhenRootIsNull()" classname="BinaryTreeTest" time="0.001"/>
-  <testcase name="getNumberOfLeafs_ShouldReturnCorrectValue_WhenOnlyRoot()" classname="BinaryTreeTest" time="0.001"/>
+  <testcase name="getNumberOfLeafs_ShouldReturnCorrectValue_WhenOnlyRoot()" classname="BinaryTreeTest" time="0.0"/>
   <testcase name="getLargestNumberOfEdges_ShouldReturn4()" classname="BinaryTreeTest" time="0.001"/>
   <testcase name="areEqual_ShouldReturnFalse_WhenIsNullAndComparesWithNode()" classname="BinaryTreeTest" time="0.001"/>
-  <testcase name="getLargestNumberOfEdges_ShouldReturnCorrectValue_WhenRootIsNull()" classname="BinaryTreeTest" time="0.0"/>
-  <testcase name="getLargestNumberOfEdges_ShouldReturnCorrectValue_WhenOnlyRoot()" classname="BinaryTreeTest" time="0.0"/>
-  <testcase name="areEqual_ShouldReturnFalse()" classname="BinaryTreeTest" time="0.0"/>
-  <testcase name="areEqual_ShouldReturnTrue_WhenComparingTwoNulls()" classname="BinaryTreeTest" time="0.001"/>
-  <testcase name="areEqual_ShouldReturnFalse_WhenComparingWithNull()" classname="BinaryTreeTest" time="0.001"/>
+  <testcase name="getLargestNumberOfEdges_ShouldReturnCorrectValue_WhenRootIsNull()" classname="BinaryTreeTest" time="0.001"/>
+  <testcase name="areEqual_ShouldReturnFalse()" classname="BinaryTreeTest" time="0.001"/>
+  <testcase name="getLargestNumberOfEdges_ShouldReturnCorrectValue_WhenOnlyRootNode()" classname="BinaryTreeTest" time="0.0"/>
+  <testcase name="areEqual_ShouldReturnTrue_WhenComparingTwoNulls()" classname="BinaryTreeTest" time="0.0"/>
+  <testcase name="areEqual_ShouldReturnFalse_WhenComparingWithNull()" classname="BinaryTreeTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
