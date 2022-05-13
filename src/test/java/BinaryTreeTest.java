@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -108,7 +107,7 @@ class BinaryTreeTest {
     }
 
     @Test
-    void getLargestNumberOfEdges_ShouldReturnCorrectValue_WhenOnlyRoot() {
+    void getLargestNumberOfEdges_ShouldReturnCorrectValue_WhenOnlyRootNode() {
         //given
         BinaryTree tree = new BinaryTree(1);
         int expected = 0;

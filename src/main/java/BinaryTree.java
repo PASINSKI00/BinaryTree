@@ -1,11 +1,7 @@
-import java.util.Objects;
-import java.util.Optional;
-
-import static java.lang.Math.decrementExact;
 import static java.lang.Math.max;
 
 public class BinaryTree {
-    private Node root;
+    private final Node root;
 
     public BinaryTree() {
         root = null;
@@ -55,10 +51,6 @@ public class BinaryTree {
 
     public Node getRoot() {
         return root;
-    }
-
-    public void setRoot(Node root) {
-        this.root = root;
     }
 
     private int getLargestNumberOfEdges(Node root) {
